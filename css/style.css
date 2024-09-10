@@ -132,7 +132,7 @@ body {
   align-items: center;
   margin: 231px;
 }
-/* 모달 전체 스타일 */
+
 #modal {
   position: fixed;
   top: 0;
@@ -142,14 +142,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.5); /* 배경을 어둡게 처리 */
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 1000;
-  display: none;
+  /* display: none; */
 }
 #modal.active {
   display: block;
 }
-/* 모달 내부 영역 */
+
 .modal-inner {
   background-color: #fdfaf5;
   padding: 20px;
@@ -161,7 +161,6 @@ body {
   position: relative;
 }
 
-/* 모달 콘텐츠 스타일 */
 .modal-content h2 {
   font-size: 24px;
   margin-bottom: 10px;
@@ -173,15 +172,12 @@ body {
   color: #666;
 }
 
-/* 이미지 스타일 */
 .modal-image {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 20px;
 }
-
-/* 모달 닫기 버튼 */
 .modal-btn {
   position: absolute;
   top: 10px;
