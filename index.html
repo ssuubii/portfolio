@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>변수빈</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
     <div class="wrap">
@@ -95,6 +97,7 @@
             <p>유튜브 링크:abcdefg.....</p>
           </div>
           <div class="main-video">
+            <a href="#"></a>
             <img src="https://picsum.photos/823/463?random=2" alt="메인이미지">
           </div>
         </div>
@@ -103,10 +106,20 @@
             <div class="slider">
               <button class="front"><</button>
               <div class="slides-video">
-                  <img src="https://picsum.photos/465/262?random=2" alt="작업물 1">
-                  <img src="https://picsum.photos/465/262?random=2" alt="작업물 2">
-                  <img src="https://picsum.photos/465/262?random=2" alt="작업물 3">
-                  <img src="https://picsum.photos/465/262?random=2" alt="작업물 4">
+                <ul class="video-list">
+                  <li>
+                    <a href="#"></a>
+                    <img src="https://picsum.photos/465/262?random=2" alt="작업물 1">
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <img src="https://picsum.photos/465/262?random=2" alt="작업물 2">
+                  </li>
+                  <li>
+                    <a href="#"></a>
+                    <img src="https://picsum.photos/465/262?random=2" alt="작업물 3">
+                  </li>
+                </ul>
               </div>
               <button class="next">></button>
             </div>
@@ -132,7 +145,7 @@
           <div>사용 프로그램</div>
           <div>유튜브 링크:</div>
           </div>
-          <div class="modal-btn">X</div>
+          <div class="modal-btn" id="close-modal">X</div>
         </div>
       </div>
       </div>
